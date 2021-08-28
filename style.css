@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --color: #16CA6D;
+  --spacing: 10px;
+  --blur: 10px;
+  
+}
+body{
+    background-color:aliceblue
+}
+.h1{
+    color: var(--color);
+}
+h2 {
+  background-color:black;
+  color: white;
+  padding: 15px ;
+  font-size: 2rem;
+  text-align: center;
+}
+.controls {
+  margin: 40px;
+  text-align: center;
+  
+}
+img{
+    display: block;
+    width: 50%;
+    margin: auto;
+    padding: var(--spacing);
+    background-color: var(--color);
+    filter: blur(var(--blur));
+
+}
